@@ -2,6 +2,10 @@
 
 Built for the **Reactive Omni Buildathon** (DoraHacks — Track: **Set It and Forget It**).
 
+- **Live Interactive Demo (Direct Sepolia + Lasna RPC):** https://oktayudha05.github.io/reactive-guard/
+- **DoraHacks Submission Summary & Proofs:** [`SUBMISSION.md`](./SUBMISSION.md)
+- **Structured Deployment Proof:** [`deployment.json`](./deployment.json)
+
 **Reactive Guard** eliminates off-chain keeper bots and manual price watching. A user deposits ETH into `StopLossVaultCallback` on Ethereum Sepolia with a stop-loss threshold — **one transaction on the origin chain, nothing else**. A Reactive Omni 2.0 contract on Reactive Lasna automatically indexes the new position from its `PositionOpened` log, monitors `PriceUpdated` logs from `PriceOracleOrigin`, and dispatches an authenticated `SYSTEM.requestCallbackV_1_0` callback to return the user's ETH the instant the stop-loss threshold is breached.
 
 ## Architecture (Reactive Omni 2.0)
