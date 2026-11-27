@@ -3,6 +3,7 @@
 Built for the **Reactive Omni Buildathon** (DoraHacks — Track: **Set It and Forget It**).
 
 - **Live Interactive Demo (Direct Sepolia + Lasna RPC):** https://oktayudha05.github.io/reactive-guard/
+- **1080p Demo Video (59s MP4):** [`demo/reactive-guard-demo.mp4`](./demo/reactive-guard-demo.mp4)
 - **DoraHacks Submission Summary & Proofs:** [`SUBMISSION.md`](./SUBMISSION.md)
 - **Structured Deployment Proof:** [`deployment.json`](./deployment.json)
 

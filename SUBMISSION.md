@@ -19,8 +19,9 @@ Autonomous on-chain stop-loss vault built on Reactive Omni 2.0 — one Sepolia d
 ## GitHub Repository URL
 `https://github.com/oktayudha05/reactive-guard`
 
-## Demo Video File (Local Path — Upload to YouTube/Loom/DoraHacks)
-`demo/reactive-guard-demo.mp4` (1920x1080 MP4, H.264)
+## Demo Video File (Ready to Upload to YouTube/Loom/DoraHacks)
+- Local file: `demo/reactive-guard-demo.mp4` (59s, 1920x1080 H.264 `yuv420p`, 3.0 MB)
+- GitHub raw link: `https://github.com/oktayudha05/reactive-guard/raw/main/demo/reactive-guard-demo.mp4`
 
 ---
 
