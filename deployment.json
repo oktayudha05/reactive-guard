@@ -1,0 +1,31 @@
+{
+  "architecture": "Reactive Omni 2.0 (SYSTEM 0x8888...8888 + Omni Sepolia Proxy 0xAa14...23b4)",
+  "networkOriginDest": "Ethereum Sepolia (11155111)",
+  "networkReactive": "Reactive Lasna Omni (5318007)",
+  "deployer": "0xff10c91AD348Ed24cA203A3d080959f10aae051A",
+  "contracts": {
+    "PriceOracleOrigin": "0xD75B30bCeAD9ea862FEBB6dB6e9eaDBA258Cb115",
+    "StopLossVaultCallback": "0x7e1aCA6A7a24E60e01A9E90ADFD48165FfC4F63E",
+    "ReactiveStopLossGuard": "0xD75B30bCeAD9ea862FEBB6dB6e9eaDBA258Cb115"
+  },
+  "verified": {
+    "positionIndexedOnLasna": true,
+    "stopLossCallbackExecutedOnSepolia": true
+  },
+  "lasnaReactBlocks": {
+    "indexPositionBlock": "9344762",
+    "triggerCallbackBlock": "9344773"
+  },
+  "txHashes": {
+    "faucetBridge": "0xa3c8e63e3b91928be999b5d6e58cc4fc6ed3fb1e0a1319cfd800f9a4e2c7fdff",
+    "originDeploy": null,
+    "guardDeploy": "0xe16efded79de9e3dd82c4e54375efc9327288030d341ebbf1a27e5fdb3f8051a",
+    "vaultDeploy": "0x0ce620b05bbab6f85e00ba7bdad02e9f7a7b163159e3a21bd037c751da2eb070",
+    "setVaultCallback": "0xab3b82e5437d9b81d0788bb8ea448f4176c95a6dcc60efbab532f5899f51c95b",
+    "openPosition": "0x02ec741b99819cd7a1b8e0a93c348a8a5c9cf954678b6a29ad5a5241c5042f15",
+    "reactIndexTxOnLasna": "0xa938281cec5fd107a065bed8b0e42d9b5cb289bb8288620899026c720d15bed2",
+    "triggerPriceUpdate": "0xf046d518e428f41fa6df0e91403186c5d4b0f14f03e3259329db930632a9bc12",
+    "reactTriggerTxOnLasna": "0x5452a09684c8139cbac7a381dc787a3263c2cee3d90245148477d8398a136558",
+    "automatedStopLossCallbackOnSepolia": "0xb6404bef4cac6f41cdf8aa9b52e737bcdcd84b33ac545b98862fb72edbae2db8"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "reactive-guard",
+  "version": "1.0.0",
+  "description": "Reactive Guard — Autonomous On-Chain Stop-Loss Vault for Reactive Omni Buildathon",
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/compile_and_test.mjs",
+    "deploy": "node scripts/deploy.mjs"
+  },
+  "dependencies": {
+    "ethers": "^6.13.4",
+    "solc": "^0.8.28"
+  }
+}
